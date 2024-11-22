@@ -1,0 +1,25 @@
+@mixin layout-container($width, $height, $border-radius, $margin){
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid rgb(0, 140, 255, 1);
+  margin: $margin;
+  box-shadow: 5px 5px 10px gray;
+  width: $width;
+  height: $height;
+  border-radius: $border-radius;
+}
+
+.layout-small-container{
+  @include layout-container(150px, 150px, 4px, 2px);
+}
+
+.layout-medium-container{
+  @include layout-container(200px, 200px, 4px, 4px);
+}
+
+.layout-large-container{
+  @include layout-container(400px, 400px, 10px, 5px);
+}

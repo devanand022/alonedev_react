@@ -1,0 +1,40 @@
+# Node.js dependencies
+node_modules/
+
+# Build artifacts
+dist/
+build/
+storybook-static/
+
+# Log files
+*.log
+
+# Environment variables
+.env
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.vscode/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Compiled Java class files
+*.class
+
+# Temporary files
+*.tmp
+*.temp
+
+# Coverage reports
+coverage/
+*.cover
+
+*storybook.log

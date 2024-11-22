@@ -1,0 +1,37 @@
+.input-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0.5rem;
+  height: 30%;
+  width: 95%;
+
+  label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    padding: 0 0.2rem;
+  }
+
+  input {
+    padding: 0.7rem;
+    border: 1px solid rgb(0, 0, 0, 0.38);
+    border-radius: 0.4rem;
+    margin: 8px 0 0 0;
+    outline: none;
+
+    &:focus {
+      border: 1px solid rgb(0, 140, 255, 1);
+    }
+
+    &:invalid {
+      border: 1px solid #ff0000;
+    }
+  }
+
+  p {
+    color: #ff0000;
+    padding: 0 2px;
+    font-size: small;
+    margin: 9px 0;
+  }
+}
